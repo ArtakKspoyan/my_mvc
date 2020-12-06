@@ -1,0 +1,29 @@
+{
+    "name": "iazaran/php-mvc",
+    "description": "Pure PHP Composer based MVC Framework",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Artak Kspoyan",
+            "email": "artakkspoyan111290@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "env.php",
+            "src/migrations.php",
+            "src/routes.php"
+        ],
+        "classmap": [
+            "src/"
+        ]
+    },
+    "require": {
+      "ext-pdo": "*",
+      "ext-json": "*",
+      "ext-gd": "*",
+      "ext-iconv": "*",
+      "ext-apache": "*"
+    }
+}
